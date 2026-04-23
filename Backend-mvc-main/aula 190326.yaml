@@ -1,0 +1,107 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1764769685260
+  modified: 1764769685260
+  description: ""
+collection:
+  - url: http://localhost:3000
+    name: teste
+    meta:
+      id: req_aa90c71211f84541a729e67541bfa551
+      created: 1773960590787
+      modified: 1773960810929
+      isPrivate: false
+      description: ""
+      sortKey: -1773960590787
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/users
+    name: teste user
+    meta:
+      id: req_999242b0009d4819a67ad2766712a965
+      created: 1773960709118
+      modified: 1773967032338
+      isPrivate: false
+      description: ""
+      sortKey: -1773960709118
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/users
+    name: teste post
+    meta:
+      id: req_4f74d0d1cb374b6191c00848cadd70e0
+      created: 1773960748010
+      modified: 1773967021578
+      isPrivate: false
+      description: ""
+      sortKey: -1773960748010
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+        	"name" : "marcela",
+          "age" : 21
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - name: "teste "
+    meta:
+      id: fld_513fea8746444fffaa759225e1807c89
+      created: 1773960563418
+      modified: 1773960563418
+      sortKey: -1773960563418
+      description: ""
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1773960467927
+    modified: 1773960467927
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1773960467923
+    modified: 1773960467923
+    isPrivate: false

@@ -1,0 +1,130 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_e8ccaec0e5cc48c693bca9b5509a532c
+  created: 1774563955678
+  modified: 1774563955678
+  description: ""
+collection:
+  - url: http://localhost:3000
+    name: teste
+    meta:
+      id: req_7a954cf4a4384ac5a70b1ba12db495af
+      created: 1773960590787
+      modified: 1774572274395
+      isPrivate: false
+      description: ""
+      sortKey: -1773960590787
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/users
+    name: teste user
+    meta:
+      id: req_49c21e42e87549a59723afbb3fbdc415
+      created: 1773960709118
+      modified: 1773967032338
+      isPrivate: false
+      description: ""
+      sortKey: -1773960709118
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3000/users
+    name: teste post
+    meta:
+      id: req_bca986416cd44616825723345ca6f890
+      created: 1773960748010
+      modified: 1773967021578
+      isPrivate: false
+      description: ""
+      sortKey: -1773960748010
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+        	"name" : "marcela",
+          "age" : 21
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/users/12
+    name: buscausuaruioid
+    meta:
+      id: req_0379e33f4d424db5a3f7721da4f54713
+      created: 1774570483667
+      modified: 1774572260910
+      isPrivate: false
+      description: ""
+      sortKey: -1774570483667
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - name: "teste "
+    meta:
+      id: fld_fced0f1d2ba4401393fe126fe64b16d4
+      created: 1773960563418
+      modified: 1774572290627
+      sortKey: -1773960563418
+      description: ""
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_b24839fb56b942a084477a1bebcfd616
+    created: 1773960467927
+    modified: 1773960467927
+environments:
+  name: Base Environment
+  meta:
+    id: env_be156f773eca4fc3b8c3bd8158009501
+    created: 1773960467923
+    modified: 1773960467923
+    isPrivate: false

@@ -1,0 +1,25 @@
+{
+  "name": "backand-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/VInicius-japa/Backand-mvc#readme",
+  "bugs": {
+    "url": "https://github.com/VInicius-japa/Backand-mvc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VInicius-japa/Backand-mvc.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
